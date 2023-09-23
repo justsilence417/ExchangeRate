@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <title>SelectExchangeRate</title>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+     <link rel="stylesheet" href="./ExchangeRate.css"> 
+    </head>
+    <body>
+        <h5>查詢匯率：</h5>
+        <button onclick="utn()"">美金換台幣</button>
+        <button onclick="rtn()">人民幣換台幣</button>
+        <button onclick="rtu()">美金換人民幣</button>
+       
+        <!-- 顯示匯率 -->
+        <div id="exchangeRate"></div>
+        <!-- 刪除匯率 -->
+        <h5>刪除匯率：</h5>
+        <input type="text" id="rateId">
+        <button onclick="del()">刪除</button> 
+    <hr>
+
+        <div id="delRate"></div>
+        <script src="./ExchangeRate.js"></script>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+/* 修改后的 CSS 样式 */
+table {
+    border-collapse: collapse;
+    border: 1px solid #0c0000;
+}
+
+th,td {
+    border: 1px solid #0c0000; /* 框线颜色 */
+    padding: 8px;
+    text-align: left;
+    vertical-align:middle;
+}
